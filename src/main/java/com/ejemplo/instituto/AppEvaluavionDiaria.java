@@ -64,8 +64,6 @@ public class AppEvaluavionDiaria {
                     System.out.println("Saliendo del programa");
                 }
 
-                case 0 -> System.out.println("Saliendo del programa...");
-
                 default -> System.out.println("Opcion no valida");
             }
         } while (menu != 0);
