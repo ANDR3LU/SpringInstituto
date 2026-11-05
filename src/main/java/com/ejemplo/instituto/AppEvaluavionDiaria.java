@@ -61,6 +61,8 @@ public class AppEvaluavionDiaria {
                 }
                 case 7 -> {
                     // listarAlumnadoYCalificacionDeCadaUno();
+                } case 0 -> {
+                    System.out.println("Saliendo del programa");
                 }
 
                 default -> System.out.println("Opcion no valida");
