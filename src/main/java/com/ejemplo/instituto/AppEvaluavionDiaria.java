@@ -19,8 +19,7 @@ public class AppEvaluavionDiaria {
         Scanner sc = new Scanner(System.in);
         int menu = 0;
         do {
-
-            System.out.println("----------MENÚ----------");
+            System.out.println("\n----------MENÚ----------");
             System.out.println("1. Listar Alumnado");
             System.out.println("2. Sortear entre todo el alumnado");
             System.out.println("3. Sortear entre alumnado sin registros");
@@ -62,6 +61,8 @@ public class AppEvaluavionDiaria {
                 case 7 -> {
                     // listarAlumnadoYCalificacionDeCadaUno();
                 }
+
+                case 0 -> System.out.println("Saliendo del programa...");
 
                 default -> System.out.println("Opcion no valida");
             }
