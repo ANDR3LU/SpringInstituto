@@ -9,7 +9,7 @@ public class InstitutoApplication {
 	public static void main(String[] args) {
 		System.out.println("Hola");
 		
-		SpringApplication.run(AppEvaluavionDiaria.class, args);
+		SpringApplication.run(AppEvaluacionDiaria.class, args);
 		//SpringApplication.run(InstitutoApplication.class, args);
 	}
 

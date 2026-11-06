@@ -9,7 +9,7 @@ import com.ejemplo.instituto.dao.AlumnoDAOImpl;
 import com.ejemplo.instituto.dto.AlumnoDTO;
 import com.ejemplo.instituto.util.JbdcUtil;
 
-public class AppEvaluavionDiaria {
+public class AppEvaluacionDiaria {
 
     public static void main(String[] args) {
         Connection con = JbdcUtil.getConnection();
